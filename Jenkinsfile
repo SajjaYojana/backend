@@ -52,7 +52,6 @@ pipeline {
                 """
             }
         }
-        /* 
         stage('Deploy'){
             steps{
                 sh """
@@ -62,7 +61,7 @@ pipeline {
                     helm upgrade backend .
                 """
             }
-        } */
+        } 
         
         /* stage('Sonar Scan'){
             environment {
